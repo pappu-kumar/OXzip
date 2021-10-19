@@ -1,0 +1,33 @@
+// COLOR PALLETS
+$color-primary: #00a19d;
+$color-secondary: #b8ab87;
+$color-tertiary: #ffb344;
+$color-pastelred: #e05d5d;
+
+//FONT FAMILY
+$font-primary: 'Montserrat', sans-serif;
+
+//GLOBAL SETTINGS
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //10px
+  background-color: #fff;
+  // padding: 0.5rem;
+}
+
+body {
+  font-family: $font-primary;
+  color: black;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  height: 100vh;
+}
