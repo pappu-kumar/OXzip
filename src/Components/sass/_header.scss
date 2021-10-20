@@ -1,2 +1,59 @@
 .header {
+  margin-left: 5vw;
+  margin-top: 5rem;
+  height: 80vh;
+
+  &__ul > *:not(:nth-child(2)):not(:last-child) {
+    margin-bottom: 15rem;
+  }
+
+  &__ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    width: 6rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  &__li {
+    &--icon {
+      //Logo image
+      &-1 {
+        height: 6rem;
+        width: 6rem;
+      }
+    }
+
+    &--main {
+      margin-bottom: 5rem;
+      &-1 {
+        height: 3rem;
+        width: 3rem;
+      }
+    }
+
+    &--aboutus {
+      &-1 {
+        height: 3rem;
+        width: 3rem;
+      }
+    }
+
+    &--theme {
+      &-1 {
+        height: 3rem;
+        width: 3rem;
+      }
+    }
+  }
+}
+
+li {
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 }
