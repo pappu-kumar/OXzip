@@ -75,7 +75,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  //display: none;
+  // display: none;
+  @media only screen and (max-width: $bp-small) {
+    width: 80vw;
+  }
 
   &-icon {
     &--1 {
@@ -85,6 +88,9 @@
   }
 
   &-title {
+    @media only screen and (max-width: $bp-small) {
+      font-size: 1rem;
+    }
   }
 
   &-browse {
@@ -108,6 +114,10 @@
     flex-direction: column;
     text-align: center;
     display: none;
+
+    @media only screen and (max-width: $bp-small) {
+      width: 90vw;
+    }
   }
 
   &__component {
@@ -136,6 +146,10 @@
       margin-top: 10vh;
       margin-right: 6vw;
       cursor: pointer;
+      @media only screen and (max-width: $bp-small) {
+        margin-top: 7vh;
+        margin-right: 6vh;
+      }
     }
   }
 
@@ -176,6 +190,10 @@
     background-position-x: right;
     border-radius: 3rem;
     display: none;
+    @media only screen and (max-width: $bp-small) {
+      background-size: 10rem;
+      background-position-x: right;
+    }
 
     &-btn {
       &,
