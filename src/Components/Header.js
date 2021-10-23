@@ -1,5 +1,4 @@
 import React from 'react';
-import Workarea from './Workarea';
 
 import logo from '../img/X.png';
 import { RiProjectorLine } from 'react-icons/ri';
