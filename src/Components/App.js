@@ -5,11 +5,28 @@ import Workarea from './Workarea';
 
 const App = () => {
   const [route, setRoute] = useState('work');
-  console.log(route);
+  const [theme, setTheme] = useState('light');
+
+  const handleRoute = (newValue) => {
+    setRoute(newValue);
+  };
+
+  const handleTheme = (newValue) => {
+    setTheme(newValue);
+  };
   return (
     <div className='container'>
-      <Header route={setRoute} />
-      {route === 'work' ? <Workarea /> : <Infobox />}
+      <Header
+        route={route}
+        change={handleRoute}
+        theme={theme}
+        changeTheme={handleTheme}
+      />
+      {route === 'work' ? (
+        <Workarea theme={theme} />
+      ) : (
+        <Infobox theme={theme} />
+      )}
     </div>
   );
 };

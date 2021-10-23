@@ -1,6 +1,9 @@
 .container {
   height: 100vh;
   //   background-image: linear-gradient(to right bottom, #ffb344, #fff8e5 50%);
+  background-image: url(../../img/back-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
 }

@@ -4,7 +4,7 @@
     position: relative;
     @include centerer;
     margin-left: 10%;
-    background-color: rgba($color-tertiary, 0.4);
+    background-color: rgba($color-primary, 0.1);
     border-radius: 2rem;
     box-shadow: 0 2px 2rem rgba(black, 0.2);
     display: flex;
@@ -16,7 +16,7 @@
   //Copy Message
   &__message {
     position: absolute;
-    background-color: rgba($color-pastelred, 0.9);
+    background-color: rgba($color-tertiary, 0.8);
     height: 100%;
     width: 100%;
     border-radius: 2rem;
@@ -54,7 +54,7 @@
 }
 
 .progress__container .bg-progress {
-  background-color: rgba($color-pastelred, 0.5);
+  background-color: rgba($color-secondary, 0.5);
   width: 0%;
   height: 100%;
   transform-origin: left;
@@ -63,7 +63,7 @@
 .drop__zone {
   height: 50vh;
   width: 50vw;
-  border: 2px dashed $color-pastelred;
+  border: 2px dashed $color-secondary;
   margin: 3rem;
   border-radius: 2rem;
 
@@ -119,7 +119,7 @@
     width: 80%;
     height: 3rem;
     border-radius: 1rem;
-    border: 2px dashed rgba($color-pastelred, 0.9);
+    border: 2px dashed rgba($color-secondary, 0.9);
     padding: 2rem;
     padding-right: 5rem;
     box-sizing: border-box;
@@ -137,19 +137,41 @@
 
   //Sharing Option
   &__options {
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
     margin-top: 3rem;
+    &--btn {
+      height: 3rem;
+      width: 10rem;
+      border: none;
+      border-radius: 3rem;
+      background-color: $color-tertiary;
+      font-size: 1.2rem;
+      font-weight: 300;
+      transition: all 0.2s;
+
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 0.5rem 0.5rem rgba(black, 0.2);
+      }
+    }
   }
+
+  //Email form layout
   &__option-email {
     padding-top: 2rem;
     margin: 2rem;
+    margin-top: 5rem;
     text-align: left;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid rgba($color-pastelred, 0.9);
-    background-color: rgba($color-pastelred, 0.5);
+    // border: 0.5px solid rgba($color-tertiary, 0.9);
+    background-image: url(../../img//email-guy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
     border-radius: 3rem;
+    display: none;
 
     &-btn {
       &,
@@ -159,17 +181,17 @@
         text-transform: uppercase;
         text-decoration: none;
         /* Padding 15 for top and down : 40 for left and right */
-        padding: 1.5rem 4rem;
+        padding: 1rem 4rem;
         display: inline-block;
         border-radius: 1rem;
         transition: all 0.2s;
         position: relative;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
 
         //Change for <button>
         border: none;
         cursor: pointer;
-        margin: 2rem;
+        margin: 1.5rem;
         margin-left: 0;
       }
 
@@ -193,19 +215,18 @@
   }
 }
 .form__group:not(:last-child) {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 .form {
   width: 90%;
   &__input {
     font-size: 1.5rem;
     font-family: inherit;
-    background-color: rgba(white, 0.5);
-    color: inherit;
+    background-color: rgba(white, 0.4);
     padding: 2rem 2rem;
-    border-radius: 3px;
+    border-radius: 0.5rem;
     border: none;
-    border-bottom: 3px solid;
+    border-bottom: 2px solid;
     height: 3rem;
     width: 80%;
     transition: all 0.3s;
@@ -213,7 +234,7 @@
     &:focus {
       outline: none;
       box-shadow: 0 1rem 2rem rgba(black, 0.1);
-      border-bottom: 3px solid $color-primary;
+      border-bottom: 3px solid $color-tertiary;
     }
 
     &:focus:invalid {
@@ -226,11 +247,14 @@
   }
 
   &__label {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 400;
-    margin-left: 2rem;
+    margin-left: -4rem;
     margin-top: 0.7rem;
     display: inline-block;
+    background-color: rgba($color: #fff, $alpha: 0.9);
+    border: 2px solid rgba(#fff, $alpha: 1);
+    border-radius: 1rem;
     transition: all 0.3s;
   }
 

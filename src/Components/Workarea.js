@@ -3,7 +3,7 @@ import icoFILE from '../img/file.png';
 import axios from './httpRequest';
 import copyICO from '../img/copy-icon.svg';
 
-const Workarea = () => {
+const Workarea = (props) => {
   const [message, setMessage] = useState(false);
   const [myurl, setMyUrl] = useState('');
 
@@ -101,7 +101,7 @@ const Workarea = () => {
       })
       .catch((res) => console.log(res));
   };
-
+  //Checks for the theme
   return (
     <div className='upload__container'>
       <div
@@ -144,8 +144,17 @@ const Workarea = () => {
             }}
           />
         </div>
-        <div className='sharing__options'>OPTIONS</div>
-        <div className='sharing__option-email'>
+        <div className='sharing__options'>
+          <button
+            className='sharing__options--btn'
+            onClick={() => {
+              document.getElementById('email-form').style.display = 'block';
+            }}
+          >
+            SEND EMAIL
+          </button>
+        </div>
+        <div className='sharing__option-email' id='email-form'>
           <form className='form' onSubmit={(e) => onFormSubmit(e)}>
             <div className='form__group'>
               <input
