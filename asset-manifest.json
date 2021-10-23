@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/OXzip/static/css/main.f9f1ad07.chunk.css",
+    "main.css": "/OXzip/static/css/main.bdc77550.chunk.css",
     "main.js": "/OXzip/static/js/main.310a5393.chunk.js",
     "main.js.map": "/OXzip/static/js/main.310a5393.chunk.js.map",
     "runtime-main.js": "/OXzip/static/js/runtime-main.527403a9.js",
@@ -8,7 +8,7 @@
     "static/js/2.07519276.chunk.js": "/OXzip/static/js/2.07519276.chunk.js",
     "static/js/2.07519276.chunk.js.map": "/OXzip/static/js/2.07519276.chunk.js.map",
     "index.html": "/OXzip/index.html",
-    "static/css/main.f9f1ad07.chunk.css.map": "/OXzip/static/css/main.f9f1ad07.chunk.css.map",
+    "static/css/main.bdc77550.chunk.css.map": "/OXzip/static/css/main.bdc77550.chunk.css.map",
     "static/js/2.07519276.chunk.js.LICENSE.txt": "/OXzip/static/js/2.07519276.chunk.js.LICENSE.txt",
     "static/media/EWpro.1e2453c5.jpg": "/OXzip/static/media/EWpro.1e2453c5.jpg",
     "static/media/X.8cc7f0df.png": "/OXzip/static/media/X.8cc7f0df.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.527403a9.js",
     "static/js/2.07519276.chunk.js",
-    "static/css/main.f9f1ad07.chunk.css",
+    "static/css/main.bdc77550.chunk.css",
     "static/js/main.310a5393.chunk.js"
   ]
 }
