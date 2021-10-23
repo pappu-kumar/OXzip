@@ -116,7 +116,7 @@ const Workarea = (props) => {
         <div className='drop__zone-icon'>
           <img src={icoFILE} alt='Upoad file' className='drop__zone-icon--1' />
         </div>
-        <div className='drop__zone-title'>Drop your items here...</div>
+        <div className='drop__zone-title'>Click or Drop your items here...</div>
         <input type='file' className='drop__zone-fileInput' />
       </div>
       <div className='progress__container'>

@@ -6,4 +6,9 @@
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+
+  @media only screen and (max-width: $bp-small) {
+    display: flex;
+    flex-direction: column;
+  }
 }

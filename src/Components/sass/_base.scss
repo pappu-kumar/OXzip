@@ -7,6 +7,9 @@ $color-pastelred: #e05d5d;
 //FONT FAMILY
 $font-primary: 'Montserrat', sans-serif;
 
+//Screen Size
+$bp-small: 35.7em; //600px
+
 //GLOBAL SETTINGS
 *,
 *::before,
@@ -21,6 +24,10 @@ html {
   font-size: 62.5%; //10px
   // background-color: #fff;
   // padding: 0.5rem;
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 50%;
+  }
 }
 
 body {

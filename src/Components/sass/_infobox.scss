@@ -3,7 +3,9 @@
   &__container {
     display: grid;
     grid-template-rows: [row-start] 20% [row-middle] 1fr [row-end desc-start] 5% [desc-end];
-    grid-template-columns: [col-start] 50% [col-middle] 50% [col-end];
+    grid-template-columns:
+      [col-start] 50% [col-middle] 50%
+      [col-end];
     align-items: center;
     background-color: rgba($color-primary, 0.2);
     border-radius: 3rem;
@@ -11,6 +13,14 @@
     height: 90vh;
     width: 80%;
     position: relative;
+
+    @media only screen and (max-width: $bp-small) {
+      margin-left: 0;
+      margin-top: 0;
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
   }
   //Title 'OXzip'
   &__title {
@@ -34,6 +44,10 @@
     margin-top: 6rem;
     margin-right: 10rem;
     cursor: pointer;
+
+    @media only screen and (max-width: $bp-small) {
+      display: none;
+    }
   }
   //Displays Avatars and Details
   &__creator {
@@ -45,6 +59,10 @@
       grid-column: 1 /2;
       height: 100%;
       width: 100%;
+
+      @media only screen and (max-width: $bp-small) {
+        grid-column: auto;
+      }
     }
 
     &--2 {
@@ -52,6 +70,10 @@
       grid-column: 2 / 3;
       height: 100%;
       width: 100%;
+      @media only screen and (max-width: $bp-small) {
+        grid-row: auto;
+        grid-column: auto;
+      }
     }
     //The box where all the stuff is
     &__box {
@@ -118,6 +140,11 @@
     grid-column: 1 / -1;
     display: flex;
     justify-content: center;
+
+    @media only screen and (max-width: $bp-small) {
+      grid-row: auto;
+      grid-column: auto;
+    }
     &-text {
       font-size: 1rem;
     }
