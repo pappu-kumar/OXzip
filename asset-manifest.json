@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/OXzip/static/css/main.01820754.chunk.css",
-    "main.js": "/OXzip/static/js/main.a5c34f16.chunk.js",
-    "main.js.map": "/OXzip/static/js/main.a5c34f16.chunk.js.map",
+    "main.css": "/OXzip/static/css/main.f9f1ad07.chunk.css",
+    "main.js": "/OXzip/static/js/main.310a5393.chunk.js",
+    "main.js.map": "/OXzip/static/js/main.310a5393.chunk.js.map",
     "runtime-main.js": "/OXzip/static/js/runtime-main.527403a9.js",
     "runtime-main.js.map": "/OXzip/static/js/runtime-main.527403a9.js.map",
-    "static/js/2.78b503d4.chunk.js": "/OXzip/static/js/2.78b503d4.chunk.js",
-    "static/js/2.78b503d4.chunk.js.map": "/OXzip/static/js/2.78b503d4.chunk.js.map",
+    "static/js/2.07519276.chunk.js": "/OXzip/static/js/2.07519276.chunk.js",
+    "static/js/2.07519276.chunk.js.map": "/OXzip/static/js/2.07519276.chunk.js.map",
     "index.html": "/OXzip/index.html",
-    "static/css/main.01820754.chunk.css.map": "/OXzip/static/css/main.01820754.chunk.css.map",
-    "static/js/2.78b503d4.chunk.js.LICENSE.txt": "/OXzip/static/js/2.78b503d4.chunk.js.LICENSE.txt",
+    "static/css/main.f9f1ad07.chunk.css.map": "/OXzip/static/css/main.f9f1ad07.chunk.css.map",
+    "static/js/2.07519276.chunk.js.LICENSE.txt": "/OXzip/static/js/2.07519276.chunk.js.LICENSE.txt",
     "static/media/EWpro.1e2453c5.jpg": "/OXzip/static/media/EWpro.1e2453c5.jpg",
     "static/media/X.8cc7f0df.png": "/OXzip/static/media/X.8cc7f0df.png",
     "static/media/main.scss": "/OXzip/static/media/back-2.b3ed724d.jpg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.527403a9.js",
-    "static/js/2.78b503d4.chunk.js",
-    "static/css/main.01820754.chunk.css",
-    "static/js/main.a5c34f16.chunk.js"
+    "static/js/2.07519276.chunk.js",
+    "static/css/main.f9f1ad07.chunk.css",
+    "static/js/main.310a5393.chunk.js"
   ]
 }
