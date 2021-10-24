@@ -1,5 +1,5 @@
 :root {
-    --main-bg-color: #edf5fe;
+    --main-bg-color: #00a19d;
     --light-blue: #03a9f4;
     --dark-blue: #028bca;
   }
@@ -31,7 +31,7 @@ section.download {
     text-align: center;
 }
 .download__icon {
-    height: 8rem;
+    height: 4rem;
 }
 .download__meta h4 {
     margin-bottom: 0;
