@@ -9,8 +9,8 @@
     margin-bottom: 3rem;
   }
 
-  &__ul > *:not(:nth-child(2)):not(:last-child) {
-    margin-bottom: 15rem;
+  &__ul > *:not(:last-child) {
+    margin-bottom: 20rem;
 
     @media only screen and (max-width: $bp-small) {
       margin-bottom: 0;

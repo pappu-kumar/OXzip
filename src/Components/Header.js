@@ -3,7 +3,7 @@ import React from 'react';
 import logo from '../img/X.png';
 import { RiProjectorLine } from 'react-icons/ri';
 import { RiAliensLine } from 'react-icons/ri';
-import { RiContrastLine } from 'react-icons/ri';
+// import { RiContrastLine } from 'react-icons/ri';
 
 const Header = (props) => {
   return (
@@ -36,7 +36,7 @@ const Header = (props) => {
             }}
           />
         </li>
-        <li class='header__li--theme'>
+        {/* <li class='header__li--theme'>
           <RiContrastLine
             className='header__li--theme-1'
             alt='Theme'
@@ -46,7 +46,7 @@ const Header = (props) => {
                 : props.changeTheme('light');
             }}
           />
-        </li>
+        </li> */}
       </ul>
     </div>
   );
